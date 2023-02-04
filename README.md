@@ -1,8 +1,11 @@
 
 This is the repository containing results and code for the v2.0 version of the MLPerf™ Inference benchmark.
 
-# NVIDIA MLPerf Inference Benchmarks
-This is the repository containing results and code for the v2.0 version of the MLPerf™ Inference benchmark.
+# MLPerf Inference v2.0 Implementations
+This is a repository of NVIDIA-optimized implementations for the [MLPerf](https://mlcommons.org/en/) Inference Benchmark on A30 GPUS with Intel Xeon CPUs.
+
+## Benchmarks
+**Please refer to /closed/NVIDIA for detailed instructions, including performace guides, and instructions on how to run with new systems.** 
 
 ## List of Benchmarks
 
