@@ -1,7 +1,22 @@
-#  MLPerf™ Inference v2.0 Results
 
 This is the repository containing results and code for the v2.0 version of the MLPerf™ Inference benchmark.
 
-For benchmark code and rules please see the [GitHub repository](https://github.com/mlcommons/inference).
+# NVIDIA MLPerf Inference Benchmarks
+This is the repository containing results and code for the v2.0 version of the MLPerf™ Inference benchmark.
 
-Additionally, each organization has written approximately 300 words to help explain their submissions in the [MLPerf™ Inference v2.0 Results Discussion](https://github.com/mlcommons/inference_results_v2.0/blob/master/MLPerf%E2%84%A2%20Inference%20v2.0%20Results%20Discussion.pdf).
+## List of Benchmarks
+
+Please refer to the `README.md` in each benchmark directory for implementation details.
+- [3d-unet](3d-unet/tensorrt/README.md)
+- [bert](bert/tensorrt/README.md)
+- [rnnt](rnnt/tensorrt/README.md)
+- [resnet50](resnet50/tensorrt/README.md)
+- [ssd-resnet34](ssd-resnet34/tensorrt/README.md)
+- [ssd-mobilenet](ssd-mobilenet/tensorrt/README.md)
+
+## Other Directories
+
+- [common](common) - holds shared scripts to generate TensorRT optimized plan files and to run the harnesses.
+- [harness](harness) - holds source codes of the harness interfacing with LoadGen.
+- [plugin](plugin) - holds source codes of TensorRT plugins used by the benchmarks.
+
