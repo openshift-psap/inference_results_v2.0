@@ -7,7 +7,7 @@ This is the repository containing results and code for the v2.0 version of the M
 ## List of Benchmarks
 
 Please refer to the `README.md` in each benchmark directory for implementation details.
-- [3d-unet](3d-unet/tensorrt/README.md)
+- [3d-unet](closed/NVIDIA/code/3d-unet/tensorrt/README.md)
 - [bert](bert/tensorrt/README.md)
 - [rnnt](rnnt/tensorrt/README.md)
 - [resnet50](resnet50/tensorrt/README.md)
