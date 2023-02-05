@@ -3,7 +3,6 @@ This is the repository containing results and code for the v2.0 version of the M
 We will be using the Nvidia-optimized Inference for Edge implementation from MLPerf™ v2.0.
 
 # MLPerf Inference Edge v2.0 Implementation
-Please follow the Nvidia instructions here [MLPerf](https://mlcommons.org/en/) to Download and Preprocess the Data. 
 
 ## Benchmarks
 Please refer to [/closed/NVIDIA](closed/NVIDIA/README.md) for detailed instructions on how to download the data and preprocess it.
