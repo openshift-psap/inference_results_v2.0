@@ -6,7 +6,7 @@ We will be using the Nvidia-optimized Inference for Edge implementation from MLP
 Please follow the Nvidia instructions here [MLPerf](https://mlcommons.org/en/) to Download and Preprocess the Data. 
 
 ## Benchmarks
-**Please refer to /closed/NVIDIA for detailed instructions, including performace guides, and instructions on how to run with new systems.** 
+**Please refer to /closed/NVIDIA(closed/NVIDIA) for detailed instructions on how to download the data and preprocess it. **
 
 ## List of Benchmarks
 
