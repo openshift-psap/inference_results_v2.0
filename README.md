@@ -1,8 +1,9 @@
 
 This is the repository containing results and code for the v2.0 version of the MLPerf™ Inference benchmark.
+We will be using the Nvidia-optimized Inference for Edge implementation from MLPerf™ v2.0.
 
-# MLPerf Inference v2.0 Implementations
-This is a repository of NVIDIA-optimized implementations for the [MLPerf](https://mlcommons.org/en/) Inference Benchmark on A30 GPUS.
+# MLPerf Inference Edge v2.0 Implementation
+Please follow the Nvidia instructions here [MLPerf](https://mlcommons.org/en/) to Download and Preprocess the Data. 
 
 ## Benchmarks
 **Please refer to /closed/NVIDIA for detailed instructions, including performace guides, and instructions on how to run with new systems.** 
