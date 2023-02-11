@@ -18,7 +18,10 @@ Please refer to [/closed/NVIDIA](closed/NVIDIA/README.md) for detailed instructi
 
 ### Start the container interactively and run script to add your system to the 'KnownSystem' list
 
-To start the container interactively run ```oc apply -f mlperf_inferencev20_setup.yaml```
+To start the container interactively run 
+```bash
+oc apply -f mlperf_inferencev20_setup.yaml
+```
 
 Connect to the running container ```oc rsh  mlinferencesetup```
 
