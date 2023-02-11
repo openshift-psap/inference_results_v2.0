@@ -1,6 +1,11 @@
 
-This is the repository containing results and code for the v2.0 version of the MLPerf™ Inference benchmark.
+## How to run MLPerf Inference Edge on MicroShift
 We will be using the Nvidia-optimized Inference for Edge implementation from MLPerf™ v2.0.
+
+## Prerequisites
+
+### Download the datasets for MLPerf Inference Edge 2.0:
+
 
 # MLPerf Inference Edge v2.0 Implementation
 
