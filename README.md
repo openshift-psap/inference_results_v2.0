@@ -16,7 +16,7 @@ The host system needs to be configured so that containers run on MicroShift can 
 
 Please refer to [/closed/NVIDIA](closed/NVIDIA/README.md) for detailed instructions on how to download the data and preprocess it.
 
-### Start the container interactively and setup custom system 
+### Start the container interactively and run script to add your system to our 'KnownSystem' list
 
 To start the container interactively run ```oc apply -f mlperf_inferencev20_setup.yaml```
  
