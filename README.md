@@ -23,7 +23,10 @@ To start the container interactively run
 oc apply -f mlperf_inferencev20_setup.yaml
 ```
 
-Connect to the running container ```oc rsh  mlinferencesetup```
+Connect to the running container 
+```bash 
+oc rsh oc rsh -n test mlinferencesetup
+```
 
 From inside the container run the following to add your system to the 'KnownSystem' list 
 
