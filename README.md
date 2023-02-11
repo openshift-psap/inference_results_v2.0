@@ -34,7 +34,9 @@ From inside the container run the following to add your system to the 'KnownSyst
  
 
 ## Run the MLPerf v2.0 Inference Edge Benchmarks
-
+```bash
+oc apply -f mlperf_inferencev20.yaml
+```
 
 ## List of Benchmarks
 
