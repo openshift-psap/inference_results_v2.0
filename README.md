@@ -22,7 +22,8 @@ To start the container interactively run ```oc apply -f mlperf_inferencev20_setu
 
 Connect to the running container ```oc rsh  mlinferencesetup```
 
-From inside the container run the following to add your system to the 'KnownSystem' list ```python3 scripts/custom_systems/add_custom_system.py```
+From inside the container run the following to add your system to the 'KnownSystem' list 
+```python3 scripts/custom_systems/add_custom_system.py```
  
 
 ## Benchmarks
