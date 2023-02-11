@@ -6,11 +6,11 @@ We will be using the Nvidia-optimized Inference for Edge implementation from MLP
 
 ### Download the datasets for MLPerf Inference Edge 2.0:
 
+Please refer to [/closed/NVIDIA](closed/NVIDIA/README.md) for detailed instructions on how to download the data and preprocess it.
 
-# MLPerf Inference Edge v2.0 Implementation
 
 ## Benchmarks
-Please refer to [/closed/NVIDIA](closed/NVIDIA/README.md) for detailed instructions on how to download the data and preprocess it.
+
 
 ## List of Benchmarks
 
