@@ -37,6 +37,9 @@ From inside the container run the following to add your system to the 'KnownSyst
 ```bash
 oc apply -f mlperf_inferencev20.yaml
 ```
+Check the logs to see if everything ran. 
+Logs are saved to build/logs/[timestamp]/[system ID]/... every time make run_harness is called.
+
 
 ## List of Benchmarks
 
