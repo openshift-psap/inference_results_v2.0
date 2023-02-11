@@ -1,5 +1,5 @@
 
-## How to run MLPerf Inference Edge on MicroShift
+# How to run MLPerf Inference Edge on MicroShift
 We will be using the Nvidia-optimized Inference for Edge implementation from MLPerf™ v2.0.
 
 ## Prerequisites
