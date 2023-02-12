@@ -34,15 +34,19 @@ From inside the container run the following to add your system to the 'KnownSyst
  
 
 ## Run the MLPerf v2.0 Inference Edge Benchmarks
+
+Run the MLPerf Inference Edge benchmarks. 
+
 ```bash
 oc apply -f mlperf_inferencev20.yaml
 ```
 
+View the log as the benchmarks. 
 ```bash
 oc logs -f mlinference --namespace test 
 ```
 
-end of log should list outcome of test. Here is an example of what you should see at the end of the log output. 
+Once the benchmarks complete, the end of log should list outcome of test. Here is an example of what you should see at the end of the log output. 
 ```bash
 ======================= Perf harness results: =======================
 
