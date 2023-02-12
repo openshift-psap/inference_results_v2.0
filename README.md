@@ -35,7 +35,7 @@ From inside the container run the following to add your system to the 'KnownSyst
 
 ## Run the MLPerf v2.0 Inference Edge Benchmarks
 
-Run the MLPerf Inference Edge benchmarks by running this command which creates a pod in MicroShift that runs the benchmark.
+To run the MLPerf Inference Edge benchmarks, execute the following command.  This creates a pod in MicroShift that runs the MLPerf inference benchmarks.
 
 ```bash
 oc apply -f mlperf_inferencev20.yaml
