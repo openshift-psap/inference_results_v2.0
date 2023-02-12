@@ -39,10 +39,10 @@ oc apply -f mlperf_inferencev20.yaml
 ```
 
 ```bash
-oc logs -f 
+oc logs -f mlinference --namespace test 
 ```
 
-end of log should list outcome of test like. For example 
+end of log should list outcome of test. Here is an example of what you should see at the end of the log output. 
 ```bash
 ======================= Perf harness results: =======================
 
