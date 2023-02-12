@@ -37,6 +37,38 @@ From inside the container run the following to add your system to the 'KnownSyst
 ```bash
 oc apply -f mlperf_inferencev20.yaml
 ```
+
+```bash
+oc logs -f 
+```
+
+end of log should list outcome of test like. For example 
+```bash
+======================= Perf harness results: =======================
+
+A30x1_TRT-custom_k_99_MaxP-Offline:
+    3d-unet: result_samples_per_second: 1.68985, Result is VALID
+    bert: result_samples_per_second: 1657.5, Result is VALID
+    rnnt: result_samples_per_second: 6508.62, Result is VALID
+
+A30x1_TRT-custom_k_99_MaxP-SingleStream:
+    3d-unet: result_90.00_percentile_latency_ns: 1032063563, Result is VALID
+    bert: result_90.00_percentile_latency_ns: 2163848, Result is VALID
+    rnnt: result_90.00_percentile_latency_ns: 22444932, Result is VALID
+
+A30x1_TRT-lwis_k_99_MaxP-Offline:
+    resnet50: result_samples_per_second: 17984.5, Result is VALID
+    ssd-mobilenet: result_samples_per_second: 25625.6, Result is VALID
+    ssd-resnet34: result_samples_per_second: 476.856, Result is VALID
+
+A30x1_TRT-lwis_k_99_MaxP-SingleStream:
+    resnet50: result_90.00_percentile_latency_ns: 496206, Result is VALID
+    ssd-mobilenet: result_90.00_percentile_latency_ns: 282757, Result is VALID
+    ssd-resnet34: result_90.00_percentile_latency_ns: 2846111, Result is VALID
+```
+
+
+
 Check the logs to see if everything ran. 
 Logs are saved to build/logs/[timestamp]/[system ID]/... every time make run_harness is called.
 
