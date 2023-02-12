@@ -35,13 +35,13 @@ From inside the container run the following to add your system to the 'KnownSyst
 
 ## Run the MLPerf v2.0 Inference Edge Benchmarks
 
-Run the MLPerf Inference Edge benchmarks. 
+Run the MLPerf Inference Edge benchmarks by running this command which creates a pod in MicroShift that runs the benchmark.
 
 ```bash
 oc apply -f mlperf_inferencev20.yaml
 ```
 
-View the log as the benchmarks. 
+View the log as the benchmarks run. 
 ```bash
 oc logs -f mlinference --namespace test 
 ```
