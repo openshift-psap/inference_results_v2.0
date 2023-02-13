@@ -5,7 +5,7 @@ We will be using the Nvidia-optimized Inference for Edge implementation from MLP
 ## Prerequisites
 The host system needs to be configured so that containers run on MicroShift can access GPUs.
  - Install RHEL 8.7 and MicroShift 4.12 on the host machine
- - A30 Nvidia GPU on your host machine.
+ - A30 Nvidia GPU (in this example case) on your host machine.
  - Install the NVIDIA GPU driver 
  - Install NVIDIA Container Toolkit
  - Install NVIDIA Device Plugin
