@@ -15,7 +15,7 @@ The host system needs to be configured so that containers run on MicroShift can 
 ### Download the datasets for MLPerf Inference Edge 2.0:
 
 Please refer to [/closed/NVIDIA](closed/NVIDIA/README.md) for detailed instructions on how to download the data and preprocess it.
-The dataset require approximately 3TB of space.  We stored the data on NVMe SSD. 
+The datasets require approximately 3TB of space.  We stored the data on NVMe SSD. 
 
 ### Start the container interactively and run script to add your system to the 'KnownSystem' list
 
