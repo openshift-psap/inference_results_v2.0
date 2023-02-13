@@ -15,7 +15,7 @@ The host system needs to be configured so that containers run on MicroShift can 
 ### Download the datasets for MLPerf Inference Edge 2.0:
 
 Please refer to [/closed/NVIDIA](closed/NVIDIA/README.md) for detailed instructions on how to download the data and preprocess it.
-Because of the large amount of data that needs to be stored in the scratch space, where we will store the datasets, it is recommended that the scratch be at least 3 TB. We stored the data on NVMe SSD. It will take approximately one day to download all the data. 
+The models, datasets, and preprocessed datasets are stored in a central location referred to as a "Scratch Space". Because of the large amount of data that needs to be stored in the scratch space, where we will store the datasets, it is recommended that the scratch be at least 3 TB. We stored the data on NVMe SSD. It will take approximately one day to download all the data. 
 
 ### Start the container interactively and run script to add your system to the 'KnownSystem' list
 
